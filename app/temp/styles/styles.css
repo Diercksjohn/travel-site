@@ -1337,7 +1337,7 @@ Instead edit gulp/templates/sprite*/
 	}
 
 .primary-nav a{
-		color: white;
+		color: #fff;
 		text-decoration: none;
 		font-weight: 300;
 		display: block;
@@ -1353,6 +1353,10 @@ Instead edit gulp/templates/sprite*/
 			font-size: 1rem;
 			background-color: transparent
 	}
+
+			.primary-nav a.is-current-link{
+				color: #fabb69;
+			}
 	}
 
 .reveal-item{
